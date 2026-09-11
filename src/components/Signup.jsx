@@ -3,12 +3,12 @@ import React from 'react'
 const Signup = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center h-screen bg-neutral-600">
-        <div className='w-full  max-w-md bg-[#222] rounded-xl drop-shadow-xl  ring-4 py-8 px-8 '>
-         <h2 className='text-[28px] font-bold text-white mb-6 text-center'>
+      <div className="flex flex-col items-center justify-center h-screen bg-neutral-600 font-mono">
+        <div className='w-full  max-w-md bg-[#222] rounded-xl drop-shadow-xl ring-4 py-8 px-8 '>
+         <h2 className='text-[28px]  text-white mb-6 text-center'>
            Sign Up
          </h2>
-          <form className='flex flex-col'>
+          <form className='flex flex-col font-Rubik'>
             <div className='flex space-x-4 mb-4'>
               <input placeholder='First Name' className='bg-white text-olive-950 rounded-xl p-2 w-1/2 focus:bg-slate-100 focus:outline-none transition ease-in-out duration-150 placeholder-black' type='text'>
               
